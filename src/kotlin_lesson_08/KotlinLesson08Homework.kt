@@ -6,8 +6,8 @@ fun main(){
     stringTransformation("Удача")
     date(dateInput = "2021-12-01 09:48:23".split(" "))
     creditCardMask(cardNumber = "4539 1488 0343 6467")
-    //println("Введите email: ")
-    // userEmailTransformation(email = readln())
+
+    userEmailTransformation("username@example.com")
     file("C:/Пользователи/Документы/report.txt")
     abbreviation("Котлин лучший язык программирования".split(" "))
     wordsUpper("слово начинается с заглавной буквы".split(" "))
